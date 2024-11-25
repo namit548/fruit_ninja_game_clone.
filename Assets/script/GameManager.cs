@@ -90,9 +90,9 @@ public class GameManager : MonoBehaviour
         AveragecoreMemes.AddRange(Resources.LoadAll<VideoClip>(AveragecoreMemesFolder));
         highScoreMemes.AddRange(Resources.LoadAll<VideoClip>(highScoreMemesFolder));
 
-        Debug.Log($"Loaded {lowScoreMemes.Count} low score memes.");
-        Debug.Log($"Loaded {AveragecoreMemes.Count} mid score memes.");
-        Debug.Log($"Loaded {highScoreMemes.Count} high score memes.");
+        Debug.Log("Loaded {lowScoreMemes.Count} low score memes.");
+        Debug.Log("Loaded {AveragecoreMemes.Count} mid score memes.");
+        Debug.Log("Loaded {highScoreMemes.Count} high score memes.");
 
     }
     private void PlayRandomMemes()
